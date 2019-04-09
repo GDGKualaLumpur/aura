@@ -13,7 +13,8 @@
                   <v-btn flat icon :href="item.link" target="_blank" slot="activator">
                     <v-icon>{{item.icon}}</v-icon>
                   </v-btn>
-                  <span>{{item.name}}</span>
+                  {{item.name}}
+                  
               </v-tooltip>
             </span>
           </p>
@@ -39,8 +40,8 @@
             </v-flex>
 
             <v-flex xs12 md3 sm4 lg3 class="py-2">
-              <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Developer Console</b></p>  
-              <div v-for="(item,i) in FooterData.DevConsole" :key="i" class="mt-1">
+              <p class="google-font mb-0" style="font-size: 140%;font-weight: 300;"><b>Connect</b></p>  
+              <div v-for="(item,i) in FooterData.Connect" :key="i" class="mt-1">
                 <a :href="item.Link" target="_blank" class="google-font" style="color: #3E4551;text-decoration: none;font-size:110%">{{item.LinkName}}</a><br>
               </div>
             </v-flex>

@@ -1,9 +1,9 @@
 <template>
   <v-content class="pa-0">
 
-    <v-container fluid class="my-4">
+    <v-container fluid style="padding:0px!important">
       <v-layout wrap align-center justify-center row fill-height class="">
-        <v-flex xs12 md10 >
+        <v-flex xs12 md12 lg12 >
           <HomeStartScreen />
         </v-flex>
       </v-layout>

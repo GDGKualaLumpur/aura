@@ -1,7 +1,12 @@
 <template>
-    <v-container class="pa-0 my-0">
-        <v-layout wrap align-center justify-center row fill-height class="mt-2 elevation-2 white" style="border:1px solid #e0e0e0;border-radius:5px">
-            <v-flex xs12 sm4 md3 lg3 class="pa-4" >
+    <v-container class="pa-0 my-0" >
+        <v-layout  wrap align-center justify-center row fill-height class="mt-2 elevation-2 white" style="border:1px solid #e0e0e0;border-radius:5px"  v-if="!eventDetails.IsReady">
+            <v-flex xs12 sm12 md12 lg12 class="pa-2 py-4 px-3" style="text-align:center" >
+                Stay tuned for future events!
+            </v-flex>
+        </v-layout>
+        <v-layout  wrap align-center justify-center row fill-height class="mt-2 elevation-2 white" style="border:1px solid #e0e0e0;border-radius:5px"  v-if="eventDetails.IsReady">
+            <v-flex xs12 sm4 md3 lg3 class="pa-4">
                 <v-img
                     :src="getImgUrl(eventDetails.EventImage)"
                     :lazy-src="getImgUrl(eventDetails.EventImage)"

@@ -1,16 +1,16 @@
 [
     {
-        "name":"Name",
-        "designation":"Development",
-        "twitter":"https://twitter.com/",
-        "linkedin":"https://www.linkedin.com/",
-        "github":"https://github.com/",
-        "profileImage":"",
+        "name":"Lim Shang Yi",
+        "designation":"Organizer",
+        "twitter":"https://twitter.com/shanggyilim",
+        "linkedin":"https://www.linkedin.com/in/shang-yi-lim/",
+        "github":"https://github.com/shangyilim",
+        "profileImage":"https://media.licdn.com/dms/image/C5103AQGRjQkR-L2Akg/profile-displayphoto-shrink_200_200/0?e=1560384000&v=beta&t=4-2bTiaPjEktljXupS-5bEpByTRWBN51dOp1yDzhi1Q",
         "website":""
     },
     {
-        "name":"Name",
-        "designation":"Management",
+        "name":"Christine Tee",
+        "designation":"Co-organizer",
         "twitter":"",
         "linkedin":"https://www.linkedin.com/",
         "github":"",
@@ -18,8 +18,8 @@
         "website":""
     },
     {
-        "name":"Name",
-        "designation":"Development",
+        "name":"Qamra Jema Khan",
+        "designation":"Organizer (Women Techmakers)",
         "twitter":"https://twitter.com/",
         "linkedin":"https://www.linkedin.com/",
         "github":"https://www.github.com/",

@@ -12,7 +12,15 @@
     />
 
     <v-toolbar-title class="ml-0 pl-1 mr-1">
-      <span class="google-font">{{ChapterDetails.ChapterName}}</span>
+      <v-layout row align-center="">
+        <v-flex style="margin-right:5px"><v-img :src="require('@/assets/img/logo-GDG.svg')"
+      :lazy-src="require('@/assets/img/logo-GDG.svg')"
+      width="50px" height="50px"></v-img>
+      </v-flex>
+      <v-flex>
+        <span class="google-font">{{ChapterDetails.ChapterName}}</span>
+      </v-flex>
+      </v-layout>
     </v-toolbar-title>
     <v-spacer />
     <v-btn
