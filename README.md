@@ -43,7 +43,7 @@ The template is created by [GDG Jalandhar](https://meetup.com/GDG-Jalandhar/) te
 1. Type `firebase init`.
 1. Select the project by using the arrow keys.
 1. Then Select the `Firebase Hosting` by using Spacebar and arrow key.
-1. Click `No` for Single page web app.
+1. Click `y` for Single page web app.
 1. Type `dist`.
 1. Some by default file will be created successfully.
 1. Run locally

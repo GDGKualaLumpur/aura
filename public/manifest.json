@@ -16,7 +16,7 @@
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffff",
-  "orientation": "landscape",
+  "orientation": "portrait",
   "theme_color": "#0277bd",
-  "description": "Aura is the website template that helps you to set GDG's Communities website with events, team and management in a few minutes."
+  "description": "Google Developer Group Kuala Lumpur (GDG KL) is a non-profit independent developer & user group that discuss and share experiences developing applications using Google Developer technologies like Android, Firebase, Angular, Google Cloud Platform and many more."
 }
