@@ -8,8 +8,8 @@
         <v-layout  wrap align-center justify-center row fill-height class="mt-2 elevation-2 white" style="border:1px solid #e0e0e0;border-radius:5px"  v-if="eventDetails.IsReady">
             <v-flex xs12 sm4 md3 lg3 class="pa-4">
                 <v-img
-                    :src="getImgUrl(eventDetails.EventImage)"
-                    :lazy-src="getImgUrl(eventDetails.EventImage)"
+                    :src="eventDetails.EventImage"
+                    :lazy-src="eventDetails.EventImage"
                     width="100%">
                     <v-layout
                         slot="placeholder"
@@ -38,20 +38,20 @@
                    {{eventDetails.EventDescription}}
                </p>
                 
-                <v-btn color="#1a73e8" v-if="eventDetails.RegistrationLink.length>0" :href="eventDetails.RegistrationLink" target="_blank" class="ma-0 elevation-0 my-2" dark style="text-transform: capitalize;border-radius:5px;"> 
+                <v-btn color="#1a73e8" v-if="eventDetails.RegistrationLink.length>0" :href="eventDetails.RegistrationLink" target="_blank" rel="noopener" class="ma-0 elevation-0 my-2" dark style="text-transform: capitalize;border-radius:5px;"> 
                     Registration Link
                 </v-btn>
                 &nbsp;
 
                 <v-tooltip top slot="activator">
-                    <v-btn flat icon color="#616161" class="ma-0 elevation-0" slot="activator" style="text-transform: capitalize;border-radius:5px;"> 
+                    <v-btn flat :href="eventDetails.EventWebsite" target="_blank" rel="noopener" icon color="#616161" class="ma-0 elevation-0" slot="activator" style="text-transform: capitalize;border-radius:5px;"> 
                         <v-icon>language</v-icon>
                     </v-btn>
                     <span>See {{eventDetails.FeatureEventName}} Website</span>
                 </v-tooltip>
 
                 <v-tooltip top slot="activator">
-                    <v-btn flat icon color="#616161" class="ma-0 elevation-0" slot="activator" style="text-transform: capitalize;border-radius:5px;"> 
+                    <v-btn flat  :href="eventDetails.MeetupLink" target="_blank" rel="noopener" icon color="#616161" class="ma-0 elevation-0" slot="activator" style="text-transform: capitalize;border-radius:5px;"> 
                         <v-icon>fab fa-meetup</v-icon>
                     </v-btn>
                     <span>See {{eventDetails.FeatureEventName}} Meetup</span>
