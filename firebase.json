@@ -1,5 +1,6 @@
 {
-  "hosting": {
+  "hosting": [{
+    "target": "gdgkl-7ff1c",
     "public": "dist",
     "ignore": [
       "firebase.json",
@@ -12,5 +13,15 @@
         "destination": "/index.html"
       }
     ]
-  }
+  },{
+    "target": "survey",
+    "public": "dist",
+    "redirects":[
+      {
+        "source": "**",
+        "destination": "https://forms.gle/8qrinT1yjbA4sL8L6",
+        "type": 301
+      }
+    ]
+  }]
 }
