@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "gdgkl-7ff1c"
+  },
+  "targets": {
+    "gdgkl-7ff1c": {
+      "hosting": {
+        "scholarship": [
+          "scholarship-gdgkl"
+        ],
+        "mainsite": [
+          "gdgkl-7ff1c"
+        ]
+      }
+    }
   }
 }

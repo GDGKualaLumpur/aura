@@ -13,13 +13,25 @@
         "destination": "/index.html"
       }
     ]
-  },{
+  },
+  {
     "target": "survey",
     "public": "dist",
     "redirects":[
       {
         "source": "**",
         "destination": "https://forms.gle/8qrinT1yjbA4sL8L6",
+        "type": 301
+      }
+    ]
+  },
+  {
+    "target": "scholarship",
+    "public": "dist",
+    "redirects":[
+      {
+        "source": "**",
+        "destination": "https://forms.gle/uUWkzpZ3tUDaCNr38",
         "type": 301
       }
     ]
