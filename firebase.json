@@ -1,6 +1,7 @@
 {
-  "hosting": [{
-    "target": "gdgkl-7ff1c",
+  "hosting": [
+    {
+    "target": "mainsite",
     "public": "dist",
     "ignore": [
       "firebase.json",
