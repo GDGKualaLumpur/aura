@@ -21,6 +21,6 @@ jobs:
       run: |
         npm ci
         npm run build
-        ./node_modules/.bin/firebase deploy --only hosting:mainsite --token "${{ secrets.FIREBASE_TOKEN }}"
+        ./node_modules/.bin/firebase deploy --debug --only hosting:mainsite --token "${{ secrets.FIREBASE_TOKEN }}"
       env:
         CI: true
