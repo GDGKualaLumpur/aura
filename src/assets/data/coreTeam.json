@@ -1,11 +1,11 @@
 [
     {
-        "name":"Lim Shang Yi",
+        "name":"Ngu Chee Hong",
         "designation":"Organizer",
-        "twitter":"https://twitter.com/shanggyilim",
-        "linkedin":"https://www.linkedin.com/in/shang-yi-lim/",
-        "github":"https://github.com/shangyilim",
-        "profileImage":"lsy.jpeg",
+        "twitter":"https://twitter.com/potateros/",
+        "linkedin":"https://linkedin.com/in/cheehongngu/",
+        "github":"https://github.com/potateros",
+        "profileImage":"eric.jpg",
         "website":""
     },
     {
@@ -27,12 +27,12 @@
         "website":""
     },
     {
-        "name":"Eric Ngu",
-        "designation":"Co-organizer",
-        "twitter":"https://twitter.com/potateros/",
-        "linkedin":"https://linkedin.com/in/cheehongngu/",
-        "github":"https://github.com/potateros",
-        "profileImage":"eric.jpg",
+        "name":"Lim Shang Yi",
+        "designation":"Committee",
+        "twitter":"https://twitter.com/shanggyilim",
+        "linkedin":"https://www.linkedin.com/in/shang-yi-lim/",
+        "github":"https://github.com/shangyilim",
+        "profileImage":"lsy.jpeg",
         "website":""
     },
     {
@@ -51,15 +51,6 @@
         "linkedin":"https://www.linkedin.com/in/chrisngwz",
         "github":"",
         "profileImage":"chrisng.jpeg",
-        "website":""
-    },
-    {
-        "name":"Tumenbayeva Dara",
-        "designation":"Committee",
-        "twitter":"https://twitter.com/Darochka1",
-        "linkedin":"https://www.linkedin.com/in/dara-tumenbayeva/",
-        "github":"https://github.com/Dara1234",
-        "profileImage":"dara.jpg",
         "website":""
     },
     {
